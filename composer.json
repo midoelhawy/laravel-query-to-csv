@@ -20,7 +20,11 @@
         {
             "name": "Mihir Bhende",
             "email": "tech.semicolon@gmail.com"
-        }
+        },
+        {
+            "name": "Ahmed Hekal",
+            "email": "ahekal369@gmail.com"
+        },
     ],
     "minimum-stability": "stable",
     "require": {
