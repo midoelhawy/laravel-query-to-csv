@@ -14,7 +14,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Ahmed Hekal",
+            "name": "mido elhawy",
             "email": "android.com111@gmail.com"
         },
         {
@@ -24,7 +24,7 @@
         {
             "name": "Ahmed Hekal",
             "email": "ahekal369@gmail.com"
-        },
+        }
     ],
     "minimum-stability": "stable",
     "require": {
