@@ -1,5 +1,5 @@
 {
-    "name": "techsemicolon/laravel-query-to-csv",
+    "name": "midoelhawy/laravel-query-to-csv",
     "description": "Export the data from a query builder or raw select query into csv directly, eliminating overhead on php and in much less execution time",
     "type": "library",
     "version" : "0.0.1",
@@ -13,6 +13,10 @@
       ],
     "license": "MIT",
     "authors": [
+        {
+            "name": "Ahmed Hekal",
+            "email": "android.com111@gmail.com"
+        },
         {
             "name": "Mihir Bhende",
             "email": "tech.semicolon@gmail.com"
