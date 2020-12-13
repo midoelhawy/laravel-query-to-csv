@@ -2,7 +2,7 @@
     "name": "midoelhawy/laravel-query-to-csv",
     "description": "Export the data from a query builder or raw select query into csv directly, eliminating overhead on php and in much less execution time",
     "type": "library",
-    "version" : "0.0.1",
+    "version" : "1.0.0",
     "keywords": [
         "php",
         "laravel",
