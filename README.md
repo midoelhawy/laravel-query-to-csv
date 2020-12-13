@@ -1,6 +1,6 @@
 # Laravel Export To CSV natively in MySQL
 
-Supports Laravel 5.2 and above
+Supports Laravel 7 and above
 
 Many applications require an export to csv functionality. It's implemented in variety of ways, however many of us face a performance bottleneck when the data to be exported is very huge. PHP application may consum lot of memory resources for each export. 
 
@@ -14,7 +14,7 @@ PS : It work's for local database server. The features for remote database serve
 
 Install via composer
 ```bash
-composer require techsemicolon/laravel-query-to-csv
+composer require midoelhawy/laravel-query-to-csv
 ```
 
 **Register the service Provider**
@@ -46,7 +46,7 @@ Take a boolean. If set to true, it will add timestamp to  the csv file name you 
 
 It's suggested to set this to true in development environments OR on production if you really need it. When set to true, it will add a log entry in following format for each export in log file `storage/logs/querytocsv.log`
 
-[2017-12-24 13:38:48] local.INFO: Export Execution Time :  1556.09 milliseconds | File : /storage/csvexport/employees1514122727.csv  
+[2020-12-10 13:38:48] local.INFO: Export Execution Time :  1556.09 milliseconds | File : /storage/csvexport/employees1514122727.csv  
 
 4. 'addlog-row-count' => true
 
@@ -150,3 +150,4 @@ However if you still discover any issue related to security, please connect back
 ## Credits
 
 - [Mihir Bhende](https://github.com/techsemicolon)
+- [Ahmed Hekal](https://github.com/midoelhawy)
